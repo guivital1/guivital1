@@ -23,19 +23,37 @@ beyond    gym · football · technology
 
 ## Toolkit
 
-**Core:** Python · SQL · Data Analysis · Statistics · Machine Learning  
+**Data:** Python · SQL · Data Analysis · Statistics · Machine Learning  
 **Analytics:** Dashboards · BI · Data Visualization · Business Metrics  
-**Exploring:** Cloud · Generative AI · Web Development
+**Exploring:** Data Engineering · Cloud · Generative AI
 
-## My data city
+## A tiny data pipeline
 
 <p align="center">
-  <img src="assets/data-city.svg" alt="An isometric data city generated from Guilherme's public GitHub repositories" width="100%" />
+  <img src="assets/data-pipeline.svg" alt="An animated pipeline turning raw data into insights" width="100%" />
 </p>
 
 <p align="center">
-  <sub>Each building is a language. Its height reflects how much I have built with it. Updated automatically every day.</sub>
+  <sub>Raw data goes in. Decisions come out. The fun part lives in between.</sub>
 </p>
+
+<details>
+  <summary><strong>01 — Data Engineering</strong></summary>
+  <br />
+  Reliable pipelines, clean transformations, automation, and data that arrives where it should.
+</details>
+
+<details>
+  <summary><strong>02 — Data Analytics</strong></summary>
+  <br />
+  Dashboards, business metrics, and clear answers to questions that actually matter.
+</details>
+
+<details>
+  <summary><strong>03 — Data Science</strong></summary>
+  <br />
+  Statistics, predictive models, and experiments that turn patterns into useful decisions.
+</details>
 
 ## What drives me
 
