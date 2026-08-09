@@ -1,0 +1,32 @@
+name: Sync new repositories
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 11 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-radar
+  cancel-in-progress: false
+
+jobs:
+  update-profile-radar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README radar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_OWNER: guivital1
+          PROFILE_REPO: guivital1/guivital1
+        run: python scripts/update_profile.py
