@@ -19,6 +19,12 @@
 
 <p align="center"><img src="assets/data-pipeline-light.svg" alt="An animated pipeline turning raw data into insights" width="100%" /></p>
 
+<h3 align="center">Current focus</h3>
+
+<!-- profile-focus:start -->
+<p align="center"><code>data engineering</code> · <code>analytics</code> · <code>financial automation</code> · <code>machine learning foundations</code></p>
+<!-- profile-focus:end -->
+
 <h3 align="center">Choose a data path</h3>
 
 <table align="center">
@@ -35,5 +41,11 @@
   <code>Can a sample be balanced and still represent reality?</code><br/><br/>
   <a href="https://github.com/guivital1/sampling-methods-lab">Open the experiment →</a>
 </details>
+
+<h3 align="center">Portfolio radar</h3>
+
+<!-- portfolio-radar:start -->
+<p align="center"><sub>Profile automation online · old projects preserved · new data work will surface here.</sub></p>
+<!-- portfolio-radar:end -->
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>
