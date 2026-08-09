@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="230" viewBox="0 0 920 230" role="img">
+  <title>From raw data to useful insight</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fafaf7"/><stop offset="1" stop-color="#eef2ee"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <path id="flow2" d="M85 118 C155 118 155 72 225 72 S295 164 365 164 S435 72 505 72 S575 164 645 164 S715 118 835 118"/>
+  </defs>
+  <rect width="920" height="230" rx="18" fill="url(#bg)" stroke="#d9dfdc"/>
+  <text x="32" y="34" fill="#526063" font-family="ui-monospace,monospace" font-size="12">RAW DATA</text>
+  <text x="815" y="34" fill="#526063" font-family="ui-monospace,monospace" font-size="12">INSIGHT</text>
+  <use href="#flow2" fill="none" stroke="#ccd4d1" stroke-width="10" stroke-linecap="round"/>
+  <use href="#flow2" fill="none" stroke="#202425" stroke-width="2" stroke-dasharray="9 16"><animate attributeName="stroke-dashoffset" from="50" to="0" dur="2s" repeatCount="indefinite"/></use>
+  <g font-family="ui-monospace,monospace" font-size="11" text-anchor="middle">
+    <g transform="translate(85 118)"><circle r="27" fill="#fff" stroke="#9aa6a3"/><text y="4" fill="#202425">INGEST</text></g>
+    <g transform="translate(225 72)"><circle r="31" fill="#e7f8c9" stroke="#a6e22e"/><text y="4" fill="#202425">CLEAN</text></g>
+    <g transform="translate(365 164)"><circle r="31" fill="#e0f2fe" stroke="#7dd3fc"/><text y="4" fill="#202425">ANALYZE</text></g>
+    <g transform="translate(505 72)"><circle r="31" fill="#eee9fe" stroke="#c4b5fd"/><text y="4" fill="#202425">MODEL</text></g>
+    <g transform="translate(645 164)"><circle r="31" fill="#fff" stroke="#9aa6a3"/><text y="4" fill="#202425">VALIDATE</text></g>
+    <g transform="translate(835 118)"><circle r="35" fill="#a6e22e" stroke="#7cae18" filter="url(#glow)"/><text y="4" fill="#17200d" font-weight="700">DECIDE</text><animateTransform attributeName="transform" type="translate" values="835 118;835 114;835 118" dur="3s" repeatCount="indefinite"/></g>
+  </g>
+  <g fill="#202425"><circle r="4"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#flow2"/></animateMotion></circle><circle r="3" opacity=".55"><animateMotion dur="4s" begin="-2s" repeatCount="indefinite"><mpath href="#flow2"/></animateMotion></circle></g>
+  <text x="460" y="211" text-anchor="middle" fill="#788486" font-family="ui-monospace,monospace" font-size="11">INGEST → CLEAN → ANALYZE → MODEL → VALIDATE → DECIDE</text>
+</svg>
