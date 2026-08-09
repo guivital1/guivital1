@@ -23,9 +23,9 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/guivital1/CRM-HospitalSR">⚙️<br/><strong>BUILD</strong><br/><sub>Hospital data system</sub></a></td>
+    <td align="center" width="33%"><a href="https://github.com/guivital1/hospital-crm-analytics">⚙️<br/><strong>BUILD</strong><br/><sub>Hospital data system</sub></a></td>
     <td align="center" width="33%"><a href="https://github.com/guivital1/cartola-data-analysis">📊<br/><strong>EXPLORE</strong><br/><sub>Sports analytics</sub></a></td>
-    <td align="center" width="33%"><a href="https://github.com/guivital1/DataScienceCheckPoint">🧪<br/><strong>EXPERIMENT</strong><br/><sub>Sampling methods</sub></a></td>
+    <td align="center" width="33%"><a href="https://github.com/guivital1/sampling-methods-lab">🧪<br/><strong>EXPERIMENT</strong><br/><sub>Sampling methods</sub></a></td>
   </tr>
 </table>
 
@@ -33,7 +33,7 @@
   <summary><strong>🎲 Roll a data challenge</strong></summary>
   <br/>
   <code>Can a sample be balanced and still represent reality?</code><br/><br/>
-  <a href="https://github.com/guivital1/DataScienceCheckPoint">Open the experiment →</a>
+  <a href="https://github.com/guivital1/sampling-methods-lab">Open the experiment →</a>
 </details>
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>
