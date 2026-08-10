@@ -45,7 +45,8 @@
 <h3 align="center">Portfolio radar</h3>
 
 <!-- portfolio-radar:start -->
-<p align="center"><sub>Profile automation online · old projects preserved · new data work will surface here.</sub></p>
+<p align="center"><sub>Profile checked 2026-08-09 · latest data-oriented repos</sub><br/>
+<a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>starter template for future data portfolio projects</sub></p>
 <!-- portfolio-radar:end -->
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>
