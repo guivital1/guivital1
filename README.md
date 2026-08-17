@@ -45,7 +45,7 @@
 <h3 align="center">Portfolio radar</h3>
 
 <!-- portfolio-radar:start -->
-<p align="center"><sub>Profile checked 2026-08-10 · latest data-oriented repos</sub><br/>
+<p align="center"><sub>Profile checked 2026-08-17 · latest data-oriented repos</sub><br/>
 <a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>Clean starter template for future data, analytics and machine learning portfolio projects. · updated 2026-08-10</sub><br/>
 <a href="https://github.com/guivital1/PythonSprint4"><code>PythonSprint4</code></a> <sub>new data project · updated 2025-06-13</sub><br/>
 <a href="https://github.com/guivital1/PythonGS"><code>PythonGS</code></a> <sub>new data project · updated 2025-06-06</sub></p>
