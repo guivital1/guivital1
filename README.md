@@ -25,7 +25,22 @@
 <p align="center"><code>data engineering</code> · <code>analytics</code> · <code>financial automation</code> · <code>machine learning foundations</code></p>
 <!-- profile-focus:end -->
 
-<h3 align="center">Choose a data path</h3>
+<h3 align="center">Featured build</h3>
+
+<table align="center">
+  <tr>
+    <td align="center" width="100%">
+      <a href="https://github.com/guivital1/aws-financial-data-pipeline">
+        ☁️ 📈<br/>
+        <strong>AWS FINANCIAL DATA PIPELINE</strong><br/>
+        <sub>BCB API → Lambda → S3 → Glue → Athena → QuickSight</sub><br/>
+        <sub>Automated macro-financial analytics · Python · SQL · AWS</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h3 align="center">Explore more</h3>
 
 <table align="center">
   <tr>
