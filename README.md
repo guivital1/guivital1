@@ -22,19 +22,27 @@
 <h3 align="center">Current focus</h3>
 
 <!-- profile-focus:start -->
-<p align="center"><code>data engineering</code> · <code>analytics</code> · <code>financial automation</code> · <code>machine learning foundations</code></p>
+<p align="center"><code>data engineering</code> · <code>event streaming</code> · <code>analytics</code> · <code>machine learning</code></p>
 <!-- profile-focus:end -->
 
-<h3 align="center">Featured build</h3>
+<h3 align="center">Featured systems</h3>
 
 <table align="center">
   <tr>
-    <td align="center" width="100%">
+    <td align="center" width="50%">
       <a href="https://github.com/guivital1/aws-financial-data-pipeline">
         ☁️ 📈<br/>
-        <strong>AWS FINANCIAL DATA PIPELINE</strong><br/>
-        <sub>BCB API → Lambda → S3 → Glue → Athena → QuickSight</sub><br/>
-        <sub>Automated macro-financial analytics · Python · SQL · AWS</sub>
+        <strong>FINANCIAL DATA PIPELINE</strong><br/>
+        <sub>BCB → Lambda → S3 → Glue → Athena</sub><br/>
+        <sub>Batch analytics · Python · SQL · AWS</sub>
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/guivital1/pix-sentinel">
+        ⚡ 🛡️<br/>
+        <strong>PIX SENTINEL</strong><br/>
+        <sub>Kinesis → Lambda → S3 → Athena</sub><br/>
+        <sub>Streaming risk intelligence · Explainable ML · AWS</sub>
       </a>
     </td>
   </tr>
@@ -60,10 +68,10 @@
 <h3 align="center">Portfolio radar</h3>
 
 <!-- portfolio-radar:start -->
-<p align="center"><sub>Profile checked 2026-08-17 · latest data-oriented repos</sub><br/>
-<a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>Clean starter template for future data, analytics and machine learning portfolio projects. · updated 2026-08-10</sub><br/>
-<a href="https://github.com/guivital1/PythonSprint4"><code>PythonSprint4</code></a> <sub>new data project · updated 2025-06-13</sub><br/>
-<a href="https://github.com/guivital1/PythonGS"><code>PythonGS</code></a> <sub>new data project · updated 2025-06-06</sub></p>
+<p align="center"><sub>Profile checked 2026-08-22 · latest data-oriented repos</sub><br/>
+<a href="https://github.com/guivital1/pix-sentinel"><code>pix-sentinel</code></a> <sub>Explainable real-time fraud detection pipeline for synthetic PIX transactions on AWS. · updated 2026-08-22</sub><br/>
+<a href="https://github.com/guivital1/aws-financial-data-pipeline"><code>aws-financial-data-pipeline</code></a> <sub>Automated Brazilian financial data pipeline designed for AWS. · updated 2026-08-22</sub><br/>
+<a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>Clean starter template for future data, analytics and machine learning portfolio projects. · updated 2026-08-10</sub></p>
 <!-- portfolio-radar:end -->
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>

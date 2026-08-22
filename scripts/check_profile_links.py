@@ -4,11 +4,13 @@ import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
 README = Path(os.getenv("README_PATH", "README.md"))
 TIMEOUT = 20
+AUTOMATION_BLOCKING_HOSTS = {"www.linkedin.com"}
 
 MARKDOWN_LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
 HTML_LINK_RE = re.compile(r"(?:href|src)=\"([^\"]+)\"")
@@ -28,6 +30,9 @@ def check_local(path: str) -> str | None:
 
 
 def check_url(url: str) -> str | None:
+    # LinkedIn intentionally rejects automated HEAD/GET checks even for valid profiles.
+    if urllib.parse.urlparse(url).hostname in AUTOMATION_BLOCKING_HOSTS:
+        return None
     request = urllib.request.Request(
         url,
         headers={"User-Agent": "guivital1-profile-link-checker"},
