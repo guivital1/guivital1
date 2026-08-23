@@ -41,8 +41,8 @@
       <a href="https://github.com/guivital1/pix-sentinel">
         ⚡ 🛡️<br/>
         <strong>PIX SENTINEL</strong><br/>
-        <sub>Kinesis → Lambda → S3 → Athena</sub><br/>
-        <sub>Streaming risk intelligence · Explainable ML · AWS</sub>
+        <sub>SQS → Lambda → S3 → Athena</sub><br/>
+        <sub>Event-driven risk intelligence · Explainable ML · AWS</sub>
       </a>
     </td>
   </tr>
