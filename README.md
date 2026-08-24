@@ -22,27 +22,35 @@
 <h3 align="center">Current focus</h3>
 
 <!-- profile-focus:start -->
-<p align="center"><code>data engineering</code> · <code>event streaming</code> · <code>analytics</code> · <code>machine learning</code></p>
+<p align="center"><code>data engineering</code> · <code>event-driven systems</code> · <code>analytics engineering</code> · <code>MLOps</code></p>
 <!-- profile-focus:end -->
 
 <h3 align="center">Featured systems</h3>
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <a href="https://github.com/guivital1/aws-financial-data-pipeline">
         ☁️ 📈<br/>
         <strong>FINANCIAL DATA PIPELINE</strong><br/>
-        <sub>BCB → Lambda → S3 → Glue → Athena</sub><br/>
-        <sub>Batch analytics · Python · SQL · AWS</sub>
+        <sub>BCB → AWS → dbt → analytical marts</sub><br/>
+        <sub>Data quality · Airflow · DuckDB</sub>
       </a>
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="33%">
       <a href="https://github.com/guivital1/pix-sentinel">
         ⚡ 🛡️<br/>
         <strong>PIX SENTINEL</strong><br/>
         <sub>SQS → Lambda → S3 → Athena</sub><br/>
-        <sub>Event-driven risk intelligence · Explainable ML · AWS</sub>
+        <sub>Idempotency · DLQ replay · Observability</sub>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/guivital1/credit-risk-intelligence">
+        🧠 🧭<br/>
+        <strong>CREDIT RISK INTELLIGENCE</strong><br/>
+        <sub>UCI → ML pipeline → SageMaker</sub><br/>
+        <sub>Drift · Model registry · Governance</sub>
       </a>
     </td>
   </tr>
@@ -68,10 +76,10 @@
 <h3 align="center">Portfolio radar</h3>
 
 <!-- portfolio-radar:start -->
-<p align="center"><sub>Profile checked 2026-08-22 · latest data-oriented repos</sub><br/>
-<a href="https://github.com/guivital1/pix-sentinel"><code>pix-sentinel</code></a> <sub>Explainable real-time fraud detection pipeline for synthetic PIX transactions on AWS. · updated 2026-08-22</sub><br/>
-<a href="https://github.com/guivital1/aws-financial-data-pipeline"><code>aws-financial-data-pipeline</code></a> <sub>Automated Brazilian financial data pipeline designed for AWS. · updated 2026-08-22</sub><br/>
-<a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>Clean starter template for future data, analytics and machine learning portfolio projects. · updated 2026-08-10</sub></p>
+<p align="center"><sub>Profile checked 2026-08-24 · production-ready data portfolio</sub><br/>
+<a href="https://github.com/guivital1/credit-risk-intelligence"><code>credit-risk-intelligence</code></a> <sub>Governed credit-default MLOps with SageMaker evidence, drift monitoring and responsible-use boundaries.</sub><br/>
+<a href="https://github.com/guivital1/pix-sentinel"><code>pix-sentinel</code></a> <sub>Reliable event-driven fraud detection with idempotency, DLQ recovery and CloudWatch observability.</sub><br/>
+<a href="https://github.com/guivital1/aws-financial-data-pipeline"><code>aws-financial-data-pipeline</code></a> <sub>Production-grade financial analytics with AWS, dbt, DuckDB, Airflow and tested data contracts.</sub></p>
 <!-- portfolio-radar:end -->
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>
