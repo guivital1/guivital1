@@ -68,10 +68,10 @@
 <h3 align="center">Portfolio radar</h3>
 
 <!-- portfolio-radar:start -->
-<p align="center"><sub>Profile checked 2026-08-22 · latest data-oriented repos</sub><br/>
-<a href="https://github.com/guivital1/pix-sentinel"><code>pix-sentinel</code></a> <sub>Explainable real-time fraud detection pipeline for synthetic PIX transactions on AWS. · updated 2026-08-22</sub><br/>
-<a href="https://github.com/guivital1/aws-financial-data-pipeline"><code>aws-financial-data-pipeline</code></a> <sub>Automated Brazilian financial data pipeline designed for AWS. · updated 2026-08-22</sub><br/>
-<a href="https://github.com/guivital1/data-project-starter"><code>data-project-starter</code></a> <sub>Clean starter template for future data, analytics and machine learning portfolio projects. · updated 2026-08-10</sub></p>
+<p align="center"><sub>Profile checked 2026-08-24 · latest data-oriented repos</sub><br/>
+<a href="https://github.com/guivital1/credit-risk-intelligence"><code>credit-risk-intelligence</code></a> <sub>Explainable credit-default modeling with a cost-controlled SageMaker workflow. · updated 2026-08-24</sub><br/>
+<a href="https://github.com/guivital1/pix-sentinel"><code>pix-sentinel</code></a> <sub>Explainable real-time fraud detection pipeline for synthetic PIX transactions on AWS. · updated 2026-08-23</sub><br/>
+<a href="https://github.com/guivital1/aws-financial-data-pipeline"><code>aws-financial-data-pipeline</code></a> <sub>Automated Brazilian financial data pipeline with Python, AWS Lambda, S3, Glue, Athena and QuickSight. · updated 2026-08-22</sub></p>
 <!-- portfolio-radar:end -->
 
 <p align="center"><sub>Python · SQL · Statistics · BI · Machine Learning · Cloud</sub><br/><sub>São Paulo, Brazil</sub></p>
