@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="136" viewBox="0 0 720 136" role="img" aria-labelledby="title desc">
+<title id="title">Fluxo de dados</title>
+<desc id="desc">Três fontes convergem em uma transformação e seguem como dados organizados. A animação respeita a preferência por movimento reduzido.</desc>
+<style>
+  .signal { stroke: #79c0ff; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 0.035 0.965; stroke-dashoffset: 1; animation: flow 6s linear infinite; }
+  .second { animation-delay: -2s; }
+  .third { animation-delay: -4s; }
+  @keyframes flow { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+  @media (prefers-reduced-motion: reduce) { .signal { display: none; animation: none; } }
+</style>
+<g fill="none" stroke="#30363d" stroke-width="1.5" stroke-linecap="round">
+  <path d="M28 29H123C168 29 168 68 210 68H293"/>
+  <path d="M28 68H293"/>
+  <path d="M28 107H123C168 107 168 68 210 68H293"/>
+  <path d="M339 68H407C452 68 452 29 497 29H663"/>
+  <path d="M339 68H663"/>
+  <path d="M339 68H407C452 68 452 107 497 107H663"/>
+</g>
+<g fill="none">
+  <path class="signal" pathLength="1" d="M28 29H123C168 29 168 68 210 68H293M339 68H407C452 68 452 29 497 29H663"/>
+  <path class="signal second" pathLength="1" d="M28 68H293M339 68H663"/>
+  <path class="signal third" pathLength="1" d="M28 107H123C168 107 168 68 210 68H293M339 68H407C452 68 452 107 497 107H663"/>
+</g>
+<g fill="none" stroke="#9da7b3" stroke-width="1.5">
+  <rect x="293" y="45" width="46" height="46" rx="10"/>
+  <path d="m310 61-7 7 7 7m12-14 7 7-7 7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="25" cy="29" r="3"/><circle cx="25" cy="68" r="3"/><circle cx="25" cy="107" r="3"/>
+  <path d="M672 24h17m-17 5h12m-12 5h17M672 63h17m-17 5h12m-12 5h17M672 102h17m-17 5h12m-12 5h17" stroke-linecap="round"/>
+</g>
+</svg>

@@ -5,7 +5,7 @@ This profile is set up to stay alive without rewriting old academic projects.
 ## What is automated
 
 - `Profile health`: checks README links, images, and badges every Monday.
-- `Sync new repositories`: refreshes the profile radar every Monday and on manual runs.
+- `Sync new repositories`: refreshes the repository list in `docs/repositories.md` every Monday and on manual runs.
 - `Data Project Starter`: a public template repository for new data projects.
 
 ## How new repositories show up on the profile
@@ -24,7 +24,7 @@ Create a public repository with at least one data-oriented signal in the name, d
 - `bi`
 - `statistics`
 
-The profile workflow will detect it and update the `Portfolio radar` block in the profile README.
+The profile workflow will detect it and update the marked block in `docs/repositories.md`. The profile README stays curated and is not rewritten.
 
 ## Recommended flow from any computer
 

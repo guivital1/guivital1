@@ -29,4 +29,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_OWNER: guivital1
           PROFILE_REPO: guivital1/guivital1
+          README_PATH: docs/repositories.md
         run: python scripts/update_profile.py

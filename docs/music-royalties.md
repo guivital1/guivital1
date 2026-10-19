@@ -37,8 +37,4 @@ O [marco público de 21/09/2026](https://github.com/MUSICAS-DO-BRASIL/muv-royalt
 
 A infraestrutura já verifica a saúde do PostgreSQL; a documentação desse marco ainda lista schema e persistência financeira como pendentes. Etapas de Excel COM exigem Windows, e testes sintéticos não substituem homologação financeira com documentos autorizados.
 
-## Por que este case representa engenharia de dados
-
-O valor está em combinar ingestão, transformação, qualidade e rastreabilidade com um domínio real. Planilhas são uma interface de consumo dentro desse fluxo; contratos de entrada, regras explícitas e evidências permitem evoluir a operação com mais controle.
-
 [Explorar código e documentação →](https://github.com/MUSICAS-DO-BRASIL/muv-royalties-ops) · [Voltar ao perfil](../README.md)
