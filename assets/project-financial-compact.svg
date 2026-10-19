@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="154" viewBox="0 0 440 154" role="img" aria-labelledby="title description">
+<title id="title">Financial Data Pipeline</title><desc id="description">Dados do Banco Central, da coleta à análise. Python · AWS · dbt. Abrir repositório.</desc>
+<rect width="440" height="154" rx="18" fill="#fff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,&quot;Helvetica Neue&quot;,Arial,sans-serif">
+<text x="28" y="38" font-size="24" font-weight="600" letter-spacing="-.7" fill="#1d1d1f">Financial Data Pipeline</text>
+<text x="28" y="67" fill="#6e6e73" font-size="16">Dados do Banco Central, da coleta à análise.</text>
+<text x="28" y="127" font-size="15" fill="#6e6e73">Python · AWS · dbt</text>
+</g>
+<path d="M392 30h15m-6-6 6 6-6 6" fill="none" stroke="#0071e3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

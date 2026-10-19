@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="154" viewBox="0 0 440 154" role="img" aria-labelledby="title description">
+<title id="title">PIX Sentinel</title><desc id="description">Pipeline de eventos com pagamentos sintéticos. SQS · Lambda · Athena. Abrir repositório.</desc>
+<rect width="440" height="154" rx="18" fill="#fff"/>
+<g font-family="-apple-system,BlinkMacSystemFont,&quot;Helvetica Neue&quot;,Arial,sans-serif">
+<text x="28" y="38" font-size="24" font-weight="600" letter-spacing="-.7" fill="#1d1d1f">PIX Sentinel</text>
+<text x="28" y="67" fill="#6e6e73" font-size="16">Pipeline de eventos com pagamentos</text><text x="28" y="89" fill="#6e6e73" font-size="16">sintéticos.</text>
+<text x="28" y="127" font-size="15" fill="#6e6e73">SQS · Lambda · Athena</text>
+</g>
+<path d="M392 30h15m-6-6 6 6-6 6" fill="none" stroke="#0071e3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
