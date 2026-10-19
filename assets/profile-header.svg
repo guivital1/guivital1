@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="246" viewBox="0 0 880 246" role="img" aria-labelledby="name description">
+<title id="name">Guilherme Vital · Engenharia de dados</title>
+<desc id="description">Apresentação clara, com um pequeno fluxo de dados animado em azul.</desc>
+<style>
+text {font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+.packet {fill:none;stroke:#0071e3;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:.045 .955;animation:travel 7s linear infinite}
+.second {animation-delay:-3.5s}
+@media(max-width:480px){.name{font-size:64px}.role{font-size:30px}}
+@keyframes travel {from {stroke-dashoffset:1} to {stroke-dashoffset:0}}
+@media(prefers-reduced-motion:reduce){.packet{animation:none;display:none}}
+</style>
+<rect width="880" height="246" rx="18" fill="#ffffff"/>
+<text class="name" x="440" y="93" text-anchor="middle" font-size="52" font-weight="600" letter-spacing="-1.8" fill="#1d1d1f">Guilherme Vital</text>
+<text class="role" x="440" y="133" text-anchor="middle" font-size="21" font-weight="400" letter-spacing="-.3" fill="#6e6e73">Engenharia de dados</text>
+<g fill="none" stroke="#d2d2d7" stroke-width="1.25" stroke-linecap="round">
+<path d="M242 172H320C347 172 347 186 372 186H508C533 186 533 172 560 172H638"/>
+<path d="M242 186H638"/>
+<path d="M242 200H320C347 200 347 186 372 186H508C533 186 533 200 560 200H638"/>
+</g>
+<path class="packet" pathLength="1" d="M242 172H320C347 172 347 186 372 186H508C533 186 533 200 560 200H638"/>
+<path class="packet second" pathLength="1" d="M242 200H320C347 200 347 186 372 186H508C533 186 533 172 560 172H638"/>
+<g fill="#86868b"><circle cx="242" cy="172" r="1.8"/><circle cx="242" cy="186" r="1.8"/><circle cx="242" cy="200" r="1.8"/><circle cx="638" cy="172" r="1.8"/><circle cx="638" cy="186" r="1.8"/><circle cx="638" cy="200" r="1.8"/></g>
+</svg>
